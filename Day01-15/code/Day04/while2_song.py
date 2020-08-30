@@ -9,5 +9,5 @@ if __name__ == "__main__":
     sum, n = 0, 0
     while n < 100:
         sum += n
-        n += 2
+        n += 3
     print(sum)
