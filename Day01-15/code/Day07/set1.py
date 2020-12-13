@@ -19,6 +19,7 @@ def main():
     print(set1)
     print(set2)
     set2.discard(5)
+    print("set2", set2)
     # remove的元素如果不存在会引发KeyError
     if 4 in set2:
         set2.remove(4)
